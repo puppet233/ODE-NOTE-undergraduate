@@ -1,5 +1,5 @@
 # ODE-NOTE-undergraduate
-Some notes of ODE, written in Chinese.This is an undergraduate course and is rather cursory.Just for the noob-students from Control Science of Engineering.
+Some notes of ODE, written in Chinese.This is an undergraduate course and is rather cursory.Just for the noob-students from Control Science of Engineering.\\
 这是关于常微分方程的LaTeX中文笔记，本科生课程（其实本校非数学系也不讲，可惜控制系学生就是干这个的）。
 the textbook is“常微分方程”（ODE），written by Fulin Jin and Xunjing Li.
 教材是《常微分方程》作者是金福临与李训经。
