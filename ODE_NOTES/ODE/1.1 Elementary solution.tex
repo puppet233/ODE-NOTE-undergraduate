@@ -1,0 +1,166 @@
+\documentclass[12pt, a4paper, oneside]{ctexbook}
+\usepackage{amsmath, indentfirst, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs}
+
+\title{{\Huge{\textbf{ODE}}}}
+\author{Hao Y.H}
+\date{\today}
+\linespread{1.5}
+\setlength{\parindent}{2em}
+\newtheorem{theorem}{定理}[section]
+\newtheorem{definition}[theorem]{定义}
+\newtheorem{lemma}[theorem]{引理}
+\newtheorem{corollary}[theorem]{推论}
+\newtheorem{example}[theorem]{例}
+\newtheorem{proposition}[theorem]{命题}
+
+\newcommand*{\dif}{\mathop{}\!\mathrm{d}}
+
+\begin{document}
+
+\maketitle
+
+\pagenumbering{roman}
+\setcounter{page}{1}
+
+\begin{center}
+    \Huge\textbf{前言}
+\end{center}~\
+
+低廉而有效的快乐.
+~\\
+\begin{flushright}
+    \begin{tabular}{c}
+        Hao Y.H\\
+        \today
+    \end{tabular}
+\end{flushright}
+
+\newpage
+\pagenumbering{Roman}
+\setcounter{page}{1}
+\tableofcontents
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\chapter{ODE初级解法}
+
+summary.
+
+\section{conception}
+    常微分方程解决的是求函数的问题，其中，未知函数的自变量唯一.\par
+    首先约定术语如下：
+    \begin{definition}[阶]
+        未知函数的导数的最高阶数即为DE的阶.一般的n阶ODE可表示为:
+        \begin{align}
+            F(t,x,\frac{df}{dt},\cdots,\frac{df^n}{dt^n})=0
+        \end{align}
+    \end{definition}
+    \begin{definition}[解与定义空间]
+        若函数$\phi(x)$在某区间$[a,b]$内有$n$阶连续导数,且将函数$x= \phi(t)$代入方程(1.1)后,
+        可使得等式
+        \begin{align*}
+            F(t,\phi(t),\phi^{'}(t),\cdots,\phi^{(n)} (t)) = 0
+        \end{align*}
+        在$[a,b]$中恒成立,称函数$ x= \phi(t) $为方程(1.1)的解,称$[a,b]$为解的定义空间.\par
+        当$x= \phi(t)$不易求得而$ \phi(t,x)=0 $易于求得时,后者确定的隐函数为方程(1.1)的解,
+        则称$ \phi(t,x) = 0 $为方程(1)的积分.\par
+        对于一个微分方程,求其积分,相当于求得其解.
+
+    \end{definition}
+    \begin{definition}[积分曲线]
+        解在$t,x$平面上的几何表示---平面曲线,称为方程(1.1)的积分曲线.
+    \end{definition}
+    \begin{definition}[方向场---微分方程的几何解释]
+        当一阶ODE已解,总能以$t,x$表示出积分曲线上任一一点的斜率,因此可依据积分曲线作出有向线段,即方向场.\par
+        欧拉折线以方向场为原理.
+    \end{definition}
+    \begin{definition}[变系数线性微分方程]
+    \end{definition}
+\section{一阶方程的初等解法}
+    \subsection{分离变量法}
+    \begin{definition}[变量可分离方程]
+        \begin{align}
+            \frac{dx}{dt} = f(x)\cdot g(t)
+        \end{align}
+    \end{definition}
+    \begin{definition}[耦合可分离方程-齐次方程]
+        \begin{align}
+            \frac{dx}{dt}=g(\frac{x}{t})
+        \end{align}
+        \begin{align}
+            \frac{dx}{dy}=\frac{a_1x+b_1y+c_1}{a_2x+b_2y+c_2}
+        \end{align}
+        对于方程(1.4),试作变换:
+        $\left\{
+        \begin{aligned}
+            x &= \xi + h\\
+            y &= \eta + k
+        \end{aligned}
+        \right$\par
+        令变换后的分子分母的常数项等于零,得到$h,k$,当线性方程组行列式为0时,ODE退化,其解是trivial的,于此不作赘述.
+    \end{definition}
+    \begin{definition}[线性方程]
+    \end{definition}
+    \begin{example}[因果变量互易一例]
+        $\frac{dx}{dt}(x^3+\frac{t}{x})=1$
+    \end{example}
+    \begin{definition}[全微分方程和积分因子]
+        \begin{align}
+            P(x,y)dx+Q(x,y)dy=0
+        \end{align}
+        若满足柯西黎曼方程,则称全微分方程(1.5)是恰当的.若存在形如(1.5)的方程不满足柯西黎曼方程,然而乘以某适当函数后,满足柯西黎曼方程,称此函数为积分因子
+        \begin{align}
+        \mu(x,y)[P(x,y)dx+Q(x,y)dy]=0
+        \end{align}
+        对于(1.6),$\mu(x,y)$的求解通过柯西黎曼方程实现,可令$\mu(x,y)$关于x或y的偏导等于0,从而简化方程求解难度.
+    \end{definition}
+\section{导数未解出的一阶方程}
+    本节研究的方程的一般形状为:
+    \begin{align}
+        F(t,x,x^{'})=0
+    \end{align}
+    对于(1.7),三自变量,可能得到三种隐函数,本节研究导数未解出的一阶方程.
+    \begin{definition}[方程$x = g(t,x^{'})$与$t = h(x,x^{'})$]
+    \end{definition}
+    1.对于方程$x = g(t,x^{'})$:\par
+    令$p=\frac{\dif x}{\dif t}$,方程取t导数,得到:
+    \begin{align}
+        p = \frac{\partial g(t,p)}{\partial t}+\frac{\partial g(t,p)}{\partial p}\cdot \frac{\dif p}{\dif t}
+    \end{align}
+    2.对于方程$t = h(x,x^{'})$:
+    令$\frac{1}{p} = \frac{dt}{dx}$即可求解.
+    \begin{example}
+        \begin{align}
+            x(\frac{dx}{dt})^2+-2t\frac{dx}{dt}+x=0
+        \end{align}\par
+        Therefore, $t =\frac{x}{2p}+\frac{xp}{2}$.\par
+        Derivative of x, $\frac{1}{p} = \frac{1}{2p}+\frac p2+ (\frac x2-\frac{x}{2p^2})\frac{dp}{dx}$.\par
+        Multiply the both sides of the equation by $2p^2$:$(p^2-1)(x\frac{dp}{dx}+p)=0$\par
+        The rest of part is obviously trivial.
+    \end{example}
+    \begin{example}
+        clairaut equation,where $f(u)$ is continuously derivable, and $ f^{'}(u)\neq constant$:
+        \begin{align}
+            x &= t\cdot\frac{dx}{dt}+f(\frac{dx}{dt})
+        \end{align}\par
+        which is equal to: $ x = tp+f(p)$.\par
+        Derivative of t, $ p = p + (t+f^{'}(p))\frac{dp}{dt} $.\par
+        Trivial.
+    \end{example}
+\section{微分方程组的初等积分法与首次积分}
+    \subsection{转化为高阶方程}
+    \begin{example}
+        对于微分方程组:\par
+        \left\{
+        \begin{aligned}
+            \frac{dx}{dt}&= y\\
+            \frac{dy}{dt}&= x
+        \end{aligned}
+        \right.\par
+        一式求导,代入二式即可.
+    \end{example}
+    \subsection{首次积分法}
+
+
+\end{document}
