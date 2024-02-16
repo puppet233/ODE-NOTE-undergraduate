@@ -6,3 +6,17 @@
 \contentsline {section}{\numberline {1.4}微分方程组的初等积分法与首次积分}{4}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}转化为高阶方程}{4}{subsection.1.4.1}%
 \contentsline {subsection}{\numberline {1.4.2}首次积分法}{4}{subsection.1.4.2}%
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}常系数线性微分方程}{6}{chapter.2}%
+\contentsline {section}{\numberline {2.1}二阶常系数线性微分方程的求解}{6}{section.2.1}%
+\contentsline {section}{\numberline {2.2}二阶非齐次微分方程——常数变易法}{6}{section.2.2}%
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}线性常微分方程组}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}矩阵值函数与向量值}{8}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}矩阵与向量的范数}{8}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}线性微分方程组的矩阵表示}{9}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}$e^{\mathbf {\mathit {A}}t}$}{10}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}常系数微分方程组的求解}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}初值问题解的存在唯一性}{13}{section.3.3}%
+\contentsline {section}{\numberline {3.4}解的结构}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}刘维尔公式}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}常数变易公式}{14}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}二阶变系数线性微分方程}{15}{section.3.5}%
