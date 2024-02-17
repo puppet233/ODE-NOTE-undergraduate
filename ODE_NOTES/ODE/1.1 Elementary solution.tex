@@ -444,7 +444,7 @@ summary.
     比较系数,得到:$\boldsymbol{\Phi}(t)\frac{d\boldsymbol{c}}{dt}\boldsymbol{=}\boldsymbol{f}(t).$\\
     则最终解为:
     \begin{align}
-        \boldsymbol{x}=\boldsymbol{\Phi}(t)\boldsymbol{c}_0+\int_t^t\boldsymbol{\Phi}(t)\boldsymbol{\Phi}^{-1}(\boldsymbol{s})\boldsymbol{f}(\boldsymbol{s})d\boldsymbol{s}
+        \boldsymbol{x}=\boldsymbol{\Phi}(t)\boldsymbol{c}_0+\int_{t_0}^t\boldsymbol{\Phi}(t)\boldsymbol{\Phi}^{-1}(\boldsymbol{s})\boldsymbol{f}(\boldsymbol{s})d\boldsymbol{s}
     \end{align}
     称$U(t,s)\equiv\Phi(t)\Phi^{-1}(s)$为转移矩阵.
     \begin{example}[非齐次微分方程组,常数变易法一则]
@@ -467,6 +467,205 @@ summary.
         得到了线性方程组,易解得$c_1,c_2$,代入到假设解即可.
     \end{example}\par\raggedright
     \section{二阶变系数线性微分方程}
+    本节讨论二阶变系数线性微分方程:
+    \begin{align}
+        \frac{dx^2}{d^2t}+p(t)\frac{dx}{dt}+q(t)x=f(t)
+    \end{align}
+    令$y=\frac{dx}{dt},$ (3.14)化作一阶线性微分方程组:\par\centering
+    \begin{cases}
+        \frac{dx}{dt}&=y\\
+        \frac{dy}{dt}&=-q(t)x-p(t)y+f(t)
+    \end{cases}\par\raggedright
+    或
+    \begin{align}
+        \frac{d}{dt}\begin{pmatrix}
+            x\\y
+        \end{pmatrix}=\begin{pmatrix}
+            0&1\\-q(t)&-p(t)
+        \end{pmatrix}\cdot\begin{pmatrix}
+            x\\y
+        \end{pmatrix}+\begin{pmatrix}
+            0\\f(t)
+        \end{pmatrix}
+    \end{align}
+    \begin{theorem}[二阶微分方程通解]
+        对于(3.14)的齐次形式而言,存在2线性无关的解.其通解为:\par\centering
+        $ x=c_1\phi_1(t)+c_2\phi_2(t)$
+        \par\raggedright
+        二阶方阵函数$U(t,s)$是(3.15)的转移矩阵,即:
+        \begin{align}
+            U(t,s)=\begin{pmatrix}
+                \phi_1(t,s)&\phi_2(t,s)\\\phi_1^{'}(t,s)&\phi_2^{'}(t,s)
+            \end{pmatrix}
+        \end{align}
+        (3.16)满足的条件是,其为单位矩阵.值得注意的是,$\phi(t,s)$是方程的解,由(3.13)可看出来.
+        由(3.13),微分方程(3.14)的解为:
+        \begin{align}
+            x=\phi_1(t,t_0)x_0+\phi_2(t,t_0)x_0+\int_{t_0}^t\phi_2(t,s)f(s)ds
+        \end{align}
+    \end{theorem}
+    \begin{theorem}
+        如果$k(t)$为二阶常系数线性方程
+        \begin{align}
+            \frac{dx^2}{d^2t}+p\frac{dx}{dt}+qx=0
+        \end{align}
+        满足条件:通解初值等于0,通解导函数初值为1.则$x=k(t-s)$也是其解.\\
+        若$x=k(t-s)\mid_{t=0}=0,k^{\prime}(t-s)\mid_{t=0}=1$.则\\
+        $x=\int_{0}^{t}\boldsymbol{k}\left(t-\boldsymbol{s}\right)\boldsymbol{f}\left(t\right)\boldsymbol{d}\mathbf{s}$
+        为二阶非齐次线性微分方程的解.
+    \end{theorem}
+    \begin{example}[根据齐次求非齐次(疑惑)]
+        求解二阶微分方程:
+        \begin{align}
+            t^2\frac{dx^2}{d^2t}-2x=t
+        \end{align}
+        当$t>0$时,$x=t^2,x=\frac1t$为齐次解,根据通解原函数值为0,通解导函数值为1,求解转移函数.代入公式(3.17)即可得到最终解.注意:二阶项系数为1,\\\centering
+        \begin{aligned}
+            x=c_1t^2+\frac{c_2}t+\int_1^t\biggl(\frac{t^2}{3s}-\frac{s^2}{3t}\biggr)\frac1sds
+        \end{aligned}
+        \par\raggedright
+        值得注意的是,获得一个非零解,根据刘维尔公式可得到另一解.\\
+        然而,二阶齐次微分方程的解无法通过初等函数以及有限次积分求解,刘维尔已经证明.
+    \end{example}
+    \begin{theorem}[幂级数求解二阶微分方程(1)]
+        若$p(t),q(t)$在收敛域中可展开为幂级数:\par\centering
+        \begin{aligned}
+            p(t)=\sum_{k=0}^{\infty}p_{k}t^k,q(t)=\sum_{k=0}^{\infty}q_{k}t_k,
+        \end{aligned}\par\centering
+        则二阶线性微分方程的解在相同的收敛域中也可以展开为收敛的幂级数.\par\centering
+        \begin{aligned}
+            x = \sum_{k=0}^{\infty}c_{k}t^k
+        \end{aligned}\par\centering
+    \end{theorem}
+    \begin{theorem}[幂级数求解二阶微分方程(2)]
+        设$ a(t),b(t) $在收敛域可以展开,则对于二阶线性微分方程
+        \begin{align}
+            t^2\frac{d^2x}{dt^2}+ta(t)\frac{dx}{dt}+b(t)x=0
+        \end{align}
+        至少有一个解形如:\\ \centering
+        \begin{aligned}
+            x=t^{\rho}\sum_{k=0}^{\infty}c_{k}t^k
+        \end{aligned}\\ \raggedright
+        其中$ \rho$为某常数.
+    \end{theorem}
+    \begin{example}
+        求解二阶线性方程:$ \frac{d^2x}{dt^2}-tx=0 $\\
+        设通解为幂级数,代入方程比较系数即可.
+    \end{example}
+    \begin{example}[Bessel]
+        \begin{align}
+            t^2\frac{d^2x}{dt^2}+t\frac{dx}{dt}+(t^2-m^2)x=0
+        \end{align}
+    \end{example}
+    \section{二阶线性微分方程的边值问题}
+    以往解决的均为初值问题;本节的现实意义为:两点之间的最速降线问题.本文将解决,1.何时存在唯一解.2.如何表示其解.
+    \begin{definition}[边值问题形式]
+        对于二阶线性微分方程
+        \begin{align}
+            &\frac{d^2y}{dx^2}+p(x)\frac{dy}{dx}+q(x)y=f(x)\\
+            &y(a)=A,y(b)=B
+        \end{align}
+        假设$p(x),q(x),f(x) $在闭区间$[a,b]$continuous,称其为两点边值问题,(3.23)为边值条件,若二者均为0,称之为齐次条件,反之非齐次条件.
+    \end{definition}
+    \begin{definition}[非齐次边值条件唯一解存在充要条件]
+            对于(3.22)的齐次形式,$ \varphi_1(x),\varphi_2(x) $为其线性无关的解,记:
+        \begin{align}
+            \Delta=\begin{vmatrix}
+                \varphi_1(a)&\varphi_2(a)\\\varphi_1(b)&\varphi_2(b)
+            \end{vmatrix}
+        \end{align}
+        则非齐次边值问题唯一解存在充要条件是$\Delta \neq 0$
 
+    \end{definition}
+    \begin{definition}[齐次边值条件非零解存在充要条件]
+        若二阶齐次线性微分方程满足齐次边值条件,则其非零解存在充要条件为:$ \Delta=0$
+    \end{definition}
+    \begin{definition}[齐次边界条件下的非齐次方程求解]
+        格林函数.(remain to be done)
+    \end{definition}
+\chapter{常微分方程的基本理论}
+    本章讨论微分方程初值问题解的存在性,唯一性,解的连续性,可微性.(由于作者数学证明能力极差,本章不作记录)
+    \section{初值问题解的存在性与唯一性}
+    \subsection{导数已解出的一阶方程的初值问题}
+        本段研究导数已经解出的一阶微分方程,给定$t_0,x_0$,
+        \begin{align}
+            \frac{dx}{dt}&=f(t,x)\\
+            x(t_0 )&=x_0
+        \end{align}
+        求方程(4.1)满足初值条件(4.2)的解$x = x(t_0)$的问题,为初值问题.\\
+        \begin{definition}[lipschitz条件与解]
+            对于(4.1)与(4.2),假设函数$f(t,x)$在闭的矩形区域:\\\centering
+            \begin{aligned}
+                \bar{R}:\quad|t-t_0|<a,|x-x_0|<b
+            \end{aligned}
+            \\\raggedright
+            是连续的,并且关于x满足lipschitz条件,即:存在正的常数$N>0$,使得当$ (t,x_1)\in \bar{R},(t,x_2)\in \bar{R}$时,不等式成立:
+            \\\begin{align}
+                \left|f(t,x_1)-f(t,x_2)\right|\leq N\left|x_1-x_2\right|
+            \end{align}
+            则在区间$ [t_0-h,t_0+h]$上存在唯一的连续可微函数适合方程(4.1)与(4.2).\\
+            其中,\begin{align}
+                h&=\min(a,\frac bm)\\
+                M&=\max_{(t,x)\in\boldsymbol{R}}|f(t,x)|
+            \end{align}
+        \end{definition}
+\chapter{定性理论初步}
+    本章介绍定性理论和稳定性理论的初步知识,i.e.相平面/奇点/极限圈的基础知识,解的稳定性概念和稳定性理论的基本定理.\\
+    \section{相平面与奇点}
+    \subsection{相平面}
+        \begin{definition}[自治系统,相平面,相轨线]
+            右端不显含自变量t的微分方程\\\centering
+            \begin{equation}
+                \begin{aligned}
+                    \begin{cases}
+                        \frac{dx}{dt} &= f(x,y)\\
+                        \frac{dy}{dt} &= g(x,y)
+                    \end{cases}
+                \end{aligned}
+            \end{equation}\\\raggedright
+        成为自治系统的微分方程,简称自治系统.其中,$f(x,y),g(x,y)$连续可微.\\
+        想象三维坐标系中,以时间t为观测顺序,考察坐标点(t,x,y)的变化规律.此即为微分方程组的积分曲线,其在(x,y)平面的投影,即为方程组的相轨线.此平面称之为相平面\\
+        \end{definition}
+        微分方程组的积分曲线不相交,而相轨线要么相交,要么重合.
+        \begin{definition}[平衡点/奇点]
+            设(5.1)的解为$ x= \varphi(t), y= \Phi(t)$,当两个解$\boldsymbol{\varphi}(t)\equiv\boldsymbol{a},\boldsymbol{\psi}(t)\equiv\boldsymbol{b}$时,如果(5.1)右边为0,则相轨线退化为点.称(a,b)为自治系统(5.1)的奇点,或平衡位置.\\
+            对(5.1)作线性变换,将奇点移动至(0,0),考虑到(5.1)已是连续可微的,则方程组在(0,0)可以表示为:
+            \begin{equation}
+                \begin{aligned}
+                    \begin{cases}
+                        \frac{dx}{dt} &= \alpha x + \beta y + X(x,y)\\
+                        \frac{dy}{dt} &= \gamma x + \delta y + Y(x,y)
+                    \end{cases}
+                \end{aligned}
+            \end{equation}
+            其中,$X(x,y),Y(x,y)$为$\sqrt{x^2+y^2}$的无穷小.
+        \end{definition}
+    \subsection{二阶线性系统的奇点}
+    本节讨论(5.2)在奇点(0,0)周围的相轨线形状.思路是:讨论一次近似方程组的相轨线的形状.\\
+    \begin{equation}
+        \begin{aligned}
+            \begin{cases}
+                \frac{dx}{dt} &= \alpha x + \beta y \\
+                \frac{dy}{dt} &= \gamma x + \delta y
+            \end{cases}
+        \end{aligned}
+    \end{equation}
+    该方程组的系数矩阵为:
+    \begin{align}
+        A=\begin{pmatrix}
+            \alpha&\beta\\\gamma&\delta
+        \end{pmatrix}
+    \end{align}
+    当$ det(A)\neq 0$时,方程组(5.3)有唯一零点(0,0).当行列式不等于0时,需根据参数为0与否,判断奇点所在的空间,可能是直线,可能是全平面.\\
+    一方面可根据特征值判断解的形式,通过写出比值极限,判断相轨线形状.\\
+    \begin{enumerate}
+        \item[1] $\lambda_1<\lambda_2<0$\\当$t\rightarrow-\infty$时,相轨线趋于无穷远,即随着时间前进,相轨线趋于(0,0),奇点为稳定结点.
+        \item[2] $0<\lambda_1<\lambda_2$\\相轨线随时间趋于无穷远.奇点为不稳定结点.
+        \item[3] $\lambda_1<0<\lambda_2$\\相轨线双向趋离,奇点为鞍点.
+    \end{enumerate}
+    另一方面,(5.3)二式作比值,得到相轨线斜率方程:
+    \begin{align}
+        \beta k^2+(\alpha-\delta)k-\gamma=0
+    \end{align}
 
 \end{document}
