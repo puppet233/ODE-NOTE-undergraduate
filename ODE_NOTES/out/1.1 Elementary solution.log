@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.2)  16 FEB 2024 22:00
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.2)  17 FEB 2024 22:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1223,19 +1223,210 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[15] (D:/pyproject/LATEX/out/1.1 Elementary solution.aux)
+./1.1 Elementary solution.tex:475: Missing $ inserted.
+<inserted text> 
+                $
+l.475     \begin{cases}
+                       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./1.1 Elementary solution.tex:478: Missing $ inserted.
+<inserted text> 
+                $
+l.478     \end{cases}
+                     \par\raggedright
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[15]
+
+./1.1 Elementary solution.tex:524: Package amsmath Error: \begin{aligned} allow
+ed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.524             x
+                   =c_1t^2+\frac{c_2}t+\int_1^t\biggl(\frac{t^2}{3s}-\frac{s...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./1.1 Elementary solution.tex:524: Missing $ inserted.
+<inserted text> 
+                $
+l.524             x
+                   =c_1t^2+\frac{c_2}t+\int_1^t\biggl(\frac{t^2}{3s}-\frac{s...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./1.1 Elementary solution.tex:525: Missing $ inserted.
+<inserted text> 
+                $
+l.525         \end{aligned}
+                           
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./1.1 Elementary solution.tex:533: Package amsmath Error: \begin{aligned} allow
+ed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.533             p
+                   (t)=\sum_{k=0}^{\infty}p_{k}t^k,q(t)=\sum_{k=0}^{\infty}q...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./1.1 Elementary solution.tex:533: Missing $ inserted.
+<inserted text> 
+                $
+l.533             p
+                   (t)=\sum_{k=0}^{\infty}p_{k}t^k,q(t)=\sum_{k=0}^{\infty}q...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./1.1 Elementary solution.tex:534: Missing $ inserted.
+<inserted text> 
+                $
+l.534         \end{aligned}
+                           \par\centering
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./1.1 Elementary solution.tex:537: Package amsmath Error: \begin{aligned} allow
+ed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.537             x
+                    = \sum_{k=0}^{\infty}c_{k}t^k
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./1.1 Elementary solution.tex:537: Missing $ inserted.
+<inserted text> 
+                $
+l.537             x
+                    = \sum_{k=0}^{\infty}c_{k}t^k
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./1.1 Elementary solution.tex:538: Missing $ inserted.
+<inserted text> 
+                $
+l.538         \end{aligned}
+                           \par\centering
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+./1.1 Elementary solution.tex:547: Package amsmath Error: \begin{aligned} allow
+ed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.547             x
+                   =t^{\rho}\sum_{k=0}^{\infty}c_{k}t^k
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[16]
+./1.1 Elementary solution.tex:547: Missing $ inserted.
+<inserted text> 
+                $
+l.547             x
+                   =t^{\rho}\sum_{k=0}^{\infty}c_{k}t^k
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./1.1 Elementary solution.tex:548: Missing $ inserted.
+<inserted text> 
+                $
+l.548         \end{aligned}
+                           \\ \raggedright
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[17] [18]
+第四章
+
+./1.1 Elementary solution.tex:599: Package amsmath Error: \begin{aligned} allow
+ed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.599                 \bar
+                          {R}:\quad|t-t_0|<a,|x-x_0|<b
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./1.1 Elementary solution.tex:599: Missing $ inserted.
+<inserted text> 
+                $
+l.599                 \bar
+                          {R}:\quad|t-t_0|<a,|x-x_0|<b
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./1.1 Elementary solution.tex:600: Missing $ inserted.
+<inserted text> 
+                $
+l.600             \end{aligned}
+                               
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[19
+
+] [20]
+第五章
+[21
+
+] [22] [23] (D:/pyproject/LATEX/out/1.1 Elementary solution.aux)
 Package rerunfilecheck Info: File `"1.1 Elementary solution".out' has not chang
 ed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 15681 strings out of 476179
- 342647 string characters out of 5813072
- 659266 words of memory out of 5000000
- 36165 multiletter control sequences out of 15000+600000
+ 15685 strings out of 476179
+ 342695 string characters out of 5813072
+ 662571 words of memory out of 5000000
+ 36169 multiletter control sequences out of 15000+600000
  485356 words of font info for 126 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,97p,448b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on D:/pyproject/LATEX/out/1.1 Elementary solution.pdf (19 pages)
+Output written on D:/pyproject/LATEX/out/1.1 Elementary solution.pdf (27 pages)
 .
