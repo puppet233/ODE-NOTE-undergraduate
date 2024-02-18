@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.2)  17 FEB 2024 22:16
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.12.2)  18 FEB 2024 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -490,88 +490,94 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup9
 )
+(d:/texlive/2022/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+)
 \c@theorem=\count314
 
 (D:/pyproject/LATEX/out/1.1 Elementary solution.aux)
 \openout1 = `"1.1 Elementary solution.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
-\symlegacymaths=\mathgroup10
+\symlegacymaths=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 18.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 18.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 18.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 18.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 18.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 18.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 18.
-LaTeX Font Info:    Redeclaring math accent \check on input line 18.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 18.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 18.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 18.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 18.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 18.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 19.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 19.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 19.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 19.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 19.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 19.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 19.
+LaTeX Font Info:    Redeclaring math accent \check on input line 19.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 19.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 19.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 19.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 19.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 19.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 18.
+(Font)              `operators' in the math version `normal' on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 18.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 19.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 18.
+(Font)              `operators' in the math version `bold' on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 18.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 18.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 18.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 18.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 18.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 18.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 19.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 18.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 18.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 18.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 18.
-Package hyperref Info: Link coloring OFF on input line 18.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 19.
+Package hyperref Info: Link coloring OFF on input line 19.
 
 (d:/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -584,37 +590,41 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count315
 )
-LaTeX Info: Redefining \ref on input line 18.
-LaTeX Info: Redefining \pageref on input line 18.
-LaTeX Info: Redefining \nameref on input line 18.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (D:/pyproject/LATEX/out/1.1 Elementary solution.out)
 (D:/pyproject/LATEX/out/1.1 Elementary solution.out)
 \@outlinefile=\write3
 \openout3 = `"1.1 Elementary solution.out"'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
 
 
 (d:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 21.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
 
 
 (d:/texlive/2022/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 21
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 22
 .
 
 (d:/texlive/2022/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1
+)
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
+2.
+
+(d:/texlive/2022/texmf-dist/tex/latex/stmaryrd/Ustmry.fd) [1
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 29--31
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
@@ -626,16 +636,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--31
 
 LaTeX Font Info:    Font shape `TU/SimSun(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/SimSun(0)/m/it' tried instead on input line 
-42.
+43.
  [2]
 第一章
 [1
 
 ]
-./1.1 Elementary solution.tex:100: Missing delimiter (. inserted).
+./1.1 Elementary solution.tex:101: Missing delimiter (. inserted).
 <to be read again> 
                    $
-l.100             \right$
+l.101             \right$
                          \par
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -645,26 +655,26 @@ Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
 [2] [3]
-./1.1 Elementary solution.tex:155: Missing $ inserted.
+./1.1 Elementary solution.tex:156: Missing $ inserted.
 <inserted text> 
                 $
-l.155             \left
+l.156             \left
                        \{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:160: Missing $ inserted.
+./1.1 Elementary solution.tex:161: Missing $ inserted.
 <inserted text> 
                 $
-l.160             \right.\par
+l.161             \right.\par
                              
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:160: Missing } inserted.
+./1.1 Elementary solution.tex:161: Missing } inserted.
 <inserted text> 
                 }
-l.160             \right.\par
+l.161             \right.\par
                              
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -672,10 +682,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./1.1 Elementary solution.tex:160: Extra }, or forgotten \endgroup.
+./1.1 Elementary solution.tex:161: Extra }, or forgotten \endgroup.
 \par ...m \@noitemerr {\@@par }\fi \else {\@@par }
                                                   \fi 
-l.160             \right.\par
+l.161             \right.\par
                              
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -684,18 +694,18 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 [4]
-./1.1 Elementary solution.tex:176: Missing $ inserted.
+./1.1 Elementary solution.tex:177: Missing $ inserted.
 <inserted text> 
                 $
-l.176             \left
+l.177             \left
                        \{
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:182: Missing delimiter (. inserted).
+./1.1 Elementary solution.tex:183: Missing delimiter (. inserted).
 <to be read again> 
                    \begingroup 
-l.182         \end{example}
+l.183         \end{example}
                            
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -705,48 +715,48 @@ Acceptable delimiters are characters whose \delcode is
 nonnegative, or you can use `\delimiter <delimiter code>'.
 
 
-./1.1 Elementary solution.tex:182: LaTeX Error: Command \end{example} invalid i
+./1.1 Elementary solution.tex:183: LaTeX Error: Command \end{example} invalid i
 n math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182         \end{example}
+l.183         \end{example}
                            
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./1.1 Elementary solution.tex:182: LaTeX Error: Something's wrong--perhaps a mi
+./1.1 Elementary solution.tex:183: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182         \end{example}
+l.183         \end{example}
                            
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./1.1 Elementary solution.tex:182: LaTeX Error: Something's wrong--perhaps a mi
+./1.1 Elementary solution.tex:183: LaTeX Error: Something's wrong--perhaps a mi
 ssing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182         \end{example}
+l.183         \end{example}
                            
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:182: Missing $ inserted.
+./1.1 Elementary solution.tex:183: Missing $ inserted.
 <inserted text> 
                 $
-l.182         \end{example}
+l.183         \end{example}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -765,28 +775,28 @@ my insertion and my current dilemma will both disappear.
 ] [9]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 277.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 276.
+(hyperref)                removing `superscript' on input line 277.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 276.
+(hyperref)                removing `math shift' on input line 277.
 
-./1.1 Elementary solution.tex:297: Missing $ inserted.
+./1.1 Elementary solution.tex:298: Missing $ inserted.
 <inserted text> 
                 $
-l.297     \begin{pmatrix}
+l.298     \begin{pmatrix}
                          
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:301: Missing $ inserted.
+./1.1 Elementary solution.tex:302: Missing $ inserted.
 <inserted text> 
                 $
-l.301     \end{pmatrix}
+l.302     \end{pmatrix}
                        \par \raggedright
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -795,31 +805,31 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:307: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:308: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.307             \frac
+l.308             \frac
                        {dx}{dt}&=2x+y\\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:307: Missing $ inserted.
+./1.1 Elementary solution.tex:308: Missing $ inserted.
 <inserted text> 
                 $
-l.307             \frac
+l.308             \frac
                        {dx}{dt}&=2x+y\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [10]
-./1.1 Elementary solution.tex:309: Missing $ inserted.
+./1.1 Elementary solution.tex:310: Missing $ inserted.
 <inserted text> 
                 $
-l.309         \end{aligned}
+l.310         \end{aligned}
                            \par
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -827,18 +837,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./1.1 Elementary solution.tex:313: Missing $ inserted.
+./1.1 Elementary solution.tex:314: Missing $ inserted.
 <inserted text> 
                 $
-l.313         \begin{pmatrix}
+l.314         \begin{pmatrix}
                              
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:316: Missing $ inserted.
+./1.1 Elementary solution.tex:317: Missing $ inserted.
 <inserted text> 
                 $
-l.316         \end{pmatrix}
+l.317         \end{pmatrix}
                            \par
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -847,30 +857,30 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:322: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:323: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.322             (
+l.323             (
                    A-\lambda_1E)X=\begin{pmatrix}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:322: Missing $ inserted.
+./1.1 Elementary solution.tex:323: Missing $ inserted.
 <inserted text> 
                 $
-l.322             (
+l.323             (
                    A-\lambda_1E)X=\begin{pmatrix}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:331: Missing $ inserted.
+./1.1 Elementary solution.tex:332: Missing $ inserted.
 <inserted text> 
                 $
-l.331         \end{aligned}
+l.332         \end{aligned}
                            \par
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -879,30 +889,30 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:337: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:338: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.337             x
+l.338             x
                     &= -c_{1}e^t+c_{2}e^{2t}\\
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:337: Missing $ inserted.
+./1.1 Elementary solution.tex:338: Missing $ inserted.
 <inserted text> 
                 $
-l.337             x
+l.338             x
                     &= -c_{1}e^t+c_{2}e^{2t}\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:339: Missing $ inserted.
+./1.1 Elementary solution.tex:340: Missing $ inserted.
 <inserted text> 
                 $
-l.339         \end{aligned}
+l.340         \end{aligned}
                            \par
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -911,18 +921,18 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [11]
-./1.1 Elementary solution.tex:363: Missing $ inserted.
+./1.1 Elementary solution.tex:364: Missing $ inserted.
 <inserted text> 
                 $
-l.363         \begin{cases}
+l.364         \begin{cases}
                            
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:368: Missing $ inserted.
+./1.1 Elementary solution.tex:369: Missing $ inserted.
 <inserted text> 
                 $
-l.368         \end{cases}
+l.369         \end{cases}
                          \par
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -931,31 +941,31 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:373: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:374: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.373             |
+l.374             |
                    A-\lambda E|=\begin{vmatrix}-4-\lambda&1&3&2\\-2&-1-\lamb...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:373: Missing $ inserted.
+./1.1 Elementary solution.tex:374: Missing $ inserted.
 <inserted text> 
                 $
-l.373             |
+l.374             |
                    A-\lambda E|=\begin{vmatrix}-4-\lambda&1&3&2\\-2&-1-\lamb...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:374: Missing $ inserted.
+./1.1 Elementary solution.tex:375: Missing $ inserted.
 <inserted text> 
                 $
-l.374         \end{aligned}
+l.375         \end{aligned}
                            \par
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -963,18 +973,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./1.1 Elementary solution.tex:378: Missing $ inserted.
+./1.1 Elementary solution.tex:379: Missing $ inserted.
 <inserted text> 
                 $
-l.378         \begin{pmatrix}
+l.379         \begin{pmatrix}
                              
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:383: Missing $ inserted.
+./1.1 Elementary solution.tex:384: Missing $ inserted.
 <inserted text> 
                 $
-l.383         \end{pmatrix}
+l.384         \end{pmatrix}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -982,18 +992,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./1.1 Elementary solution.tex:384: Missing $ inserted.
+./1.1 Elementary solution.tex:385: Missing $ inserted.
 <inserted text> 
                 $
-l.384         与\begin{pmatrix}
+l.385         与\begin{pmatrix}
                               
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:389: Missing $ inserted.
+./1.1 Elementary solution.tex:390: Missing $ inserted.
 <inserted text> 
                 $
-l.389         \end{pmatrix}
+l.390         \end{pmatrix}
                            \par
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1002,31 +1012,31 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:394: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:395: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.394             a
+l.395             a
                    _1 = k_1\begin{pmatrix}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:394: Missing $ inserted.
+./1.1 Elementary solution.tex:395: Missing $ inserted.
 <inserted text> 
                 $
-l.394             a
+l.395             a
                    _1 = k_1\begin{pmatrix}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 [12]
-./1.1 Elementary solution.tex:404: Missing $ inserted.
+./1.1 Elementary solution.tex:405: Missing $ inserted.
 <inserted text> 
                 $
-l.404         \end{aligned}
+l.405         \end{aligned}
                            \par\raggedright
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1035,30 +1045,30 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:406: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:407: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.406             p
+l.407             p
                    _1 (t)=a_{0}t+a_1 = \begin{pmatrix}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:406: Missing $ inserted.
+./1.1 Elementary solution.tex:407: Missing $ inserted.
 <inserted text> 
                 $
-l.406             p
+l.407             p
                    _1 (t)=a_{0}t+a_1 = \begin{pmatrix}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:409: Missing $ inserted.
+./1.1 Elementary solution.tex:410: Missing $ inserted.
 <inserted text> 
                 $
-l.409         \end{aligned}
+l.410         \end{aligned}
                            \par
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1067,31 +1077,31 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:411: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:412: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.411             \boldsymbol
+l.412             \boldsymbol
                              {x}=\left(c_1\boldsymbol{p}_1(t)+c_2\frac{d\bol...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:411: Missing $ inserted.
+./1.1 Elementary solution.tex:412: Missing $ inserted.
 <inserted text> 
                 $
-l.411             \boldsymbol
+l.412             \boldsymbol
                              {x}=\left(c_1\boldsymbol{p}_1(t)+c_2\frac{d\bol...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:412: Missing $ inserted.
+./1.1 Elementary solution.tex:413: Missing $ inserted.
 <inserted text> 
                 $
-l.412         \end{aligned}
+l.413         \end{aligned}
                            \par
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1101,30 +1111,30 @@ my insertion and my current dilemma will both disappear.
 
 [13]
 
-./1.1 Elementary solution.tex:431: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:432: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.431         y
+l.432         y
                _{2}(x)=y_{1}(x)\int\frac{e^{-\int P(x)dx}}{y_{1}^{2}(x)}dx
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:431: Missing $ inserted.
+./1.1 Elementary solution.tex:432: Missing $ inserted.
 <inserted text> 
                 $
-l.431         y
+l.432         y
                _{2}(x)=y_{1}(x)\int\frac{e^{-\int P(x)dx}}{y_{1}^{2}(x)}dx
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:432: Missing $ inserted.
+./1.1 Elementary solution.tex:433: Missing $ inserted.
 <inserted text> 
                 $
-l.432     \end{aligned}
+l.433     \end{aligned}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1133,31 +1143,35 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:441: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:442: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.441         \frac
+l.442         \frac
                    {d\boldsymbol{x}}{dt}&=\frac{d\boldsymbol{\Phi}(t)}{dt}\b...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:441: Missing $ inserted.
+./1.1 Elementary solution.tex:442: Missing $ inserted.
 <inserted text> 
                 $
-l.441         \frac
+l.442         \frac
                    {d\boldsymbol{x}}{dt}&=\frac{d\boldsymbol{\Phi}(t)}{dt}\b...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:442: Missing $ inserted.
+
+LaTeX Font Warning: Font shape `U/stmry/b/n' undefined
+(Font)              using `U/stmry/m/n' instead on input line 442.
+
+./1.1 Elementary solution.tex:443: Missing $ inserted.
 <inserted text> 
                 $
-l.442     \end{aligned}
+l.443     \end{aligned}
                        \par \raggedright
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1165,18 +1179,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./1.1 Elementary solution.tex:452: Missing $ inserted.
+./1.1 Elementary solution.tex:453: Missing $ inserted.
 <inserted text> 
                 $
-l.452         \begin{cases}
+l.453         \begin{cases}
                            
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:455: Missing $ inserted.
+./1.1 Elementary solution.tex:456: Missing $ inserted.
 <inserted text> 
                 $
-l.455         \end{cases}
+l.456         \end{cases}
                          \par\raggedright
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1184,18 +1198,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./1.1 Elementary solution.tex:457: Missing $ inserted.
+./1.1 Elementary solution.tex:458: Missing $ inserted.
 <inserted text> 
                 $
-l.457         \begin{cases}
+l.458         \begin{cases}
                            
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:460: Missing $ inserted.
+./1.1 Elementary solution.tex:461: Missing $ inserted.
 <inserted text> 
                 $
-l.460         \end{cases}
+l.461         \end{cases}
                          \par\raggedright
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1204,18 +1218,18 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 [14]
-./1.1 Elementary solution.tex:463: Missing $ inserted.
+./1.1 Elementary solution.tex:464: Missing $ inserted.
 <inserted text> 
                 $
-l.463         \begin{cases}
+l.464         \begin{cases}
                            
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:466: Missing $ inserted.
+./1.1 Elementary solution.tex:467: Missing $ inserted.
 <inserted text> 
                 $
-l.466         \end{cases}
+l.467         \end{cases}
                          \par\raggedright
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1223,18 +1237,18 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./1.1 Elementary solution.tex:475: Missing $ inserted.
+./1.1 Elementary solution.tex:476: Missing $ inserted.
 <inserted text> 
                 $
-l.475     \begin{cases}
+l.476     \begin{cases}
                        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:478: Missing $ inserted.
+./1.1 Elementary solution.tex:479: Missing $ inserted.
 <inserted text> 
                 $
-l.478     \end{cases}
+l.479     \end{cases}
                      \par\raggedright
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1244,31 +1258,31 @@ my insertion and my current dilemma will both disappear.
 
 [15]
 
-./1.1 Elementary solution.tex:524: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:525: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.524             x
+l.525             x
                    =c_1t^2+\frac{c_2}t+\int_1^t\biggl(\frac{t^2}{3s}-\frac{s...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:524: Missing $ inserted.
+./1.1 Elementary solution.tex:525: Missing $ inserted.
 <inserted text> 
                 $
-l.524             x
+l.525             x
                    =c_1t^2+\frac{c_2}t+\int_1^t\biggl(\frac{t^2}{3s}-\frac{s...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:525: Missing $ inserted.
+./1.1 Elementary solution.tex:526: Missing $ inserted.
 <inserted text> 
                 $
-l.525         \end{aligned}
+l.526         \end{aligned}
                            
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1277,31 +1291,31 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:533: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:534: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.533             p
+l.534             p
                    (t)=\sum_{k=0}^{\infty}p_{k}t^k,q(t)=\sum_{k=0}^{\infty}q...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-./1.1 Elementary solution.tex:533: Missing $ inserted.
-<inserted text> 
-                $
-l.533             p
-                   (t)=\sum_{k=0}^{\infty}p_{k}t^k,q(t)=\sum_{k=0}^{\infty}q...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 ./1.1 Elementary solution.tex:534: Missing $ inserted.
 <inserted text> 
                 $
-l.534         \end{aligned}
+l.534             p
+                   (t)=\sum_{k=0}^{\infty}p_{k}t^k,q(t)=\sum_{k=0}^{\infty}q...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./1.1 Elementary solution.tex:535: Missing $ inserted.
+<inserted text> 
+                $
+l.535         \end{aligned}
                            \par\centering
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1310,30 +1324,30 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:537: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:538: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.537             x
+l.538             x
                     = \sum_{k=0}^{\infty}c_{k}t^k
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:537: Missing $ inserted.
+./1.1 Elementary solution.tex:538: Missing $ inserted.
 <inserted text> 
                 $
-l.537             x
+l.538             x
                     = \sum_{k=0}^{\infty}c_{k}t^k
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:538: Missing $ inserted.
+./1.1 Elementary solution.tex:539: Missing $ inserted.
 <inserted text> 
                 $
-l.538         \end{aligned}
+l.539         \end{aligned}
                            \par\centering
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1342,31 +1356,31 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./1.1 Elementary solution.tex:547: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:548: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.547             x
+l.548             x
                    =t^{\rho}\sum_{k=0}^{\infty}c_{k}t^k
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [16]
-./1.1 Elementary solution.tex:547: Missing $ inserted.
+./1.1 Elementary solution.tex:548: Missing $ inserted.
 <inserted text> 
                 $
-l.547             x
+l.548             x
                    =t^{\rho}\sum_{k=0}^{\infty}c_{k}t^k
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:548: Missing $ inserted.
+./1.1 Elementary solution.tex:549: Missing $ inserted.
 <inserted text> 
                 $
-l.548         \end{aligned}
+l.549         \end{aligned}
                            \\ \raggedright
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1377,30 +1391,30 @@ my insertion and my current dilemma will both disappear.
 [17] [18]
 第四章
 
-./1.1 Elementary solution.tex:599: Package amsmath Error: \begin{aligned} allow
+./1.1 Elementary solution.tex:600: Package amsmath Error: \begin{aligned} allow
 ed only in math mode.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.599                 \bar
+l.600                 \bar
                           {R}:\quad|t-t_0|<a,|x-x_0|<b
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./1.1 Elementary solution.tex:599: Missing $ inserted.
+./1.1 Elementary solution.tex:600: Missing $ inserted.
 <inserted text> 
                 $
-l.599                 \bar
+l.600                 \bar
                           {R}:\quad|t-t_0|<a,|x-x_0|<b
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./1.1 Elementary solution.tex:600: Missing $ inserted.
+./1.1 Elementary solution.tex:601: Missing $ inserted.
 <inserted text> 
                 $
-l.600             \end{aligned}
+l.601             \end{aligned}
                                
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1414,19 +1428,85 @@ my insertion and my current dilemma will both disappear.
 第五章
 [21
 
-] [22] [23] (D:/pyproject/LATEX/out/1.1 Elementary solution.aux)
+] [22]
+
+./1.1 Elementary solution.tex:675: Package amsmath Error: \begin{aligned} allow
+ed only in math mode.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.675                     x
+                           =(c_1h_{11}+c_2h_{12})e^{\lambda t}\\y = (c_1h_{2...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+./1.1 Elementary solution.tex:675: Missing $ inserted.
+<inserted text> 
+                $
+l.675                     x
+                           =(c_1h_{11}+c_2h_{12})e^{\lambda t}\\y = (c_1h_{2...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./1.1 Elementary solution.tex:676: Missing $ inserted.
+<inserted text> 
+                $
+l.676                 \end{aligned}
+                                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[23] [24]
+
+./1.1 Elementary solution.tex:729: LaTeX Error: \mathbf allowed only in math mo
+de.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.729 ...athbf{\mathit{a}}}$为方程组的解,或平衡位置.当{\mathbf
+                                                  {\mathit{f}}}与t无关时,该系统称为自治...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./1.1 Elementary solution.tex:729: LaTeX Error: \mathit allowed only in math mo
+de.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.729 ...athit{a}}}$为方程组的解,或平衡位置.当{\mathbf{\mathit
+                                                  {f}}}与t无关时,该系统称为自治系统.平衡位置称...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[25] (D:/pyproject/LATEX/out/1.1 Elementary solution.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
 Package rerunfilecheck Info: File `"1.1 Elementary solution".out' has not chang
 ed.
 (rerunfilecheck)             Checksum: <no file>.
  ) 
 Here is how much of TeX's memory you used:
- 15685 strings out of 476179
- 342695 string characters out of 5813072
- 662571 words of memory out of 5000000
- 36169 multiletter control sequences out of 15000+600000
- 485356 words of font info for 126 fonts, out of 8000000 for 9000
+ 15961 strings out of 476179
+ 346169 string characters out of 5813072
+ 663039 words of memory out of 5000000
+ 36433 multiletter control sequences out of 15000+600000
+ 486580 words of font info for 132 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  89i,17n,97p,448b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on D:/pyproject/LATEX/out/1.1 Elementary solution.pdf (27 pages)
+Output written on D:/pyproject/LATEX/out/1.1 Elementary solution.pdf (29 pages)
 .
