@@ -1,6 +1,7 @@
 \documentclass[12pt, a4paper, oneside]{ctexbook}
 \usepackage{amsmath, indentfirst, amsthm, amssymb, bm, graphicx, hyperref, mathrsfs}
 \usepackage{amssymb}
+\usepackage{stmaryrd}
 
 \title{{\Huge{\textbf{ODE}}}}
 \author{Hao Y.H}
@@ -656,7 +657,7 @@ summary.
             \alpha&\beta\\\gamma&\delta
         \end{pmatrix}
     \end{align}
-    当$ det(A)\neq 0$时,方程组(5.3)有唯一零点(0,0).当行列式不等于0时,需根据参数为0与否,判断奇点所在的空间,可能是直线,可能是全平面.\\
+    当$ \det(A)\neq 0$时,方程组(5.3)有唯一零点(0,0).当行列式不等于0时,需根据参数为0与否,判断奇点所在的空间,可能是直线,可能是全平面.\\
     一方面可根据特征值判断解的形式,通过写出比值极限,判断相轨线形状.\\
     \begin{enumerate}
         \item[1] $\lambda_1<\lambda_2<0$\\当$t\rightarrow-\infty$时,相轨线趋于无穷远,即随着时间前进,相轨线趋于(0,0),奇点为稳定结点.
@@ -667,5 +668,64 @@ summary.
     \begin{align}
         \beta k^2+(\alpha-\delta)k-\gamma=0
     \end{align}
+    以上叙述了特征值不同的情况,当特征值相同时,由于重根影响特征向量的求解,因而对于二阶自治系统,有两种情况:
+    \begin{enumerate}
+        \item[1]$A$相对于$\lambda$有两个线性无关的特征向量,则:\\\centering
+                \begin{aligned}
+                    x=(c_1h_{11}+c_2h_{12})e^{\lambda t}\\y = (c_1h_{21}+c_2h_{22})e^{\lambda t}
+                \end{aligned}
+         \\\raggedright 为其解,特征值小于零,称奇点为稳定的临界结点,反之不稳定的临界结点.
+        \item[2]当需要以循环向量表示特征向量时,情况与[1]相似.
+    \end{enumerate}
+    临界结点与退化结点:此二者的区别,当斜率方程(5.5)只有1根时,为退化结点;当其为不定方程时(即矩阵为对角阵且对角线元素相同时),为临界结点.\\
+    最后,当特征值为共轭复根$ \lambda=\mu \pm i\nu $时,相轨线方程为:
+    \begin{align}
+        \tilde{r}=\tilde{r}_{0}\exp\left(-\frac{\mu}{\nu}\left(\theta-\theta_{0}\right)\right)
+    \end{align}
+    若$\mu<0$,相轨线是环绕原点的螺旋线,称之为稳定焦点;$\mu>0$,为不稳定焦点.当$\mu=0$,相轨线为同心椭圆,称奇点为中心.\\
+    \begin{theorem}[非线性系统的Perron定理]
+        A的特征值实部不为0且非线性部分无穷小($ X^2+Y^2 =o{(x^2+y^2)^{k,k>1}}$)时,自治系统的相轨线由其一次近似决定.
+    \end{theorem}
+    \begin{example}[有阻尼单摆运动方程(非线性)]
+        \begin{align}
+            \frac{d^2\varphi}{dt^2}+b\frac{d\varphi}{dt}+\frac gl\sin\varphi=\mathbf{0}
+        \end{align}
+        置$x=\varphi,y=\frac{d\varphi}{dt}$,则:
+        \begin{align}
+            \begin{cases}
+                \frac{dx}{dt}&=y\\ \frac{dy}{dt}&=-\frac gl \sin x-by
+            \end{cases}
+        \end{align}
+        其近似方程(等价)的特征方程为:$\lambda^2+b\lambda+\frac gl=0$\\
+        $\frac gl$为正数,阻尼系数为正数.当b足够小时,根为共轭复数,实部<0,为稳定焦点.\\
+        现在讨论$(\pi,0)$,作平移变换后,特征方程常数项变号,有2不等实根,为鞍点.\\
+        综上所述,对于单摆运动,当初始条件较小时,会作小角度的简谐运动;最上端虽然满足方程组,但是为鞍点;当初始条件较大时,转过若干圈后,会再次作小角度的简谐运动.\\
 
+
+    \end{example}
+    \section{极限圈}
+    本节研究二阶非线性自治系统.孤立的周期解(闭轨线)称为极限环,即极限环邻域内无其他闭轨.
+        \begin{align}
+            \begin{cases}
+                \frac{dx}{dt}=f(x,y)\\\frac{dy}{dt}=g(x,y)
+            \end{cases}
+        \end{align}
+        \subsection{闭轨线存在的判别法}
+        \begin{definition}[Bendixson否定判据]
+            设$f,g$在单连通区域$D$内连续可微,且$\frac{\partial f(x,y)}{\partial x}+\frac{\partial g(x,y)}{\partial y}\neq =0$则系统(5.9)在D中不存在闭轨线.
+            证明可通过格林公式,反证法得到.
+        \end{definition}
+    \section{解的稳定性}
+    上述讨论了奇点的稳定性.现在给出一阶常微分方程组的解的稳定性的定义与讨论方法.\\
+    一阶常微分方程组为:
+    \begin{align}
+        \frac{dx_k}{dt}=f_k(t,x_1,x_2,\cdots,x_n),(k=1,2,\cdots,n)
+    \end{align}
+    矩阵形式为:
+    \begin{align}
+        \frac{d\mathbf{\mathit{x}}}{dt}={\mathbf{\mathit{f}}}(t,{\mathbf{\mathit{x}}})
+    \end{align}
+    当${\mathbf{\mathit{x}}}={\mathbf{\mathit{a}}}$时,若有${\mathbf{\mathit{f}}}( t,{\mathbf{\mathit{a}}})={\mathbf{\mathit{0}}}$,
+    则称${\mathbf{\mathit{x}}}={\mathbf{\mathit{a}}}$为方程组的解,或平衡位置.当{\mathbf{\mathit{f}}}与t无关时,该系统称为自治系统.平衡位置称为奇点.
+    \subsection{李雅普诺夫稳定性定义}
 \end{document}
